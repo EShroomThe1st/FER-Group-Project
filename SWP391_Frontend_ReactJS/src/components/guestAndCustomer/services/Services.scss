@@ -1,0 +1,97 @@
+.service-outer {
+    border          : 1px solid #9ECE9D;
+    padding-bottom  : 8%;
+    background-color: #ffffff;
+    border-bottom   : 4px solid #087c06;
+
+    .Header {
+        text-align      : center;
+        border-radius   : 10px;
+        background-color: #164116;
+        margin          : 3% 0;
+        font-size       : 2em;
+        font-weight     : 600;
+        padding         : 1% 0;
+        color           : #fff;
+
+        @media screen and (max-width: 990px) {
+            font-size: 1.5em;
+        }
+    }
+
+    .Mid {
+        display: flex;
+        gap    : 30px;
+
+        @media screen and (max-width: 990px) {
+            flex-direction: column;
+        }
+
+
+        .Content1 {
+            padding         : 1%;
+            padding-bottom  : 3%;
+            width           : 50%;
+            height          : auto;
+            background-color: #CBECBC;
+            border-radius   : 10px;
+            text-align      : justify;
+            border-style    : solid;
+            border-width    : .3rem;
+            border-color    : #13470A;
+
+            @media screen and (max-width: 990px) {
+                width     : 100%;
+                margin-top: 3%;
+            }
+
+
+            .contenttitle1 {
+                background-color: #13470A;
+                text-align      : center;
+                color           : white;
+                border-radius   : 10px;
+                width           : 40%;
+                padding         : 4px 0;
+                margin-top      : -24px;
+            }
+
+        }
+
+        .Content2 {
+            padding         : 1%;
+            width           : 50%;
+            height          : auto;
+            background-color: #CBECBC;
+            border-radius   : 10px;
+            text-align      : justify;
+            border-style    : solid;
+            border-width    : .3rem;
+            border-color    : #13470A;
+
+            @media screen and (max-width: 990px) {
+                width: 100%;
+            }
+
+            .contenttitle2 {
+                background-color: #13470A;
+                text-align      : center;
+                color           : white;
+                border-radius   : 10px;
+                width           : 70%;
+                margin-top      : -24px;
+                padding         : 4px 0;
+
+                @media screen and (max-width: 990px) {
+                    width: 40%;
+                }
+            }
+        }
+    }
+
+    .paragraph {
+        font-style: italic;
+        padding   : 1% 5%;
+    }
+
+}

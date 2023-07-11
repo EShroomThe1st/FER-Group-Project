@@ -1,0 +1,63 @@
+.feedback-container {
+    margin-top    : 2%;
+    padding       : 2rem;
+    display       : flex;
+    flex-direction: column;
+
+    .feedback-title {
+        font-size       : 2em;
+        font-weight     : 600;
+        margin-bottom   : 2%;
+        background-color: #426e2b;
+        color           : #fff;
+        border-radius   : 45px;
+        padding         : 1%;
+        width           : 39%;
+        min-width       : 400px;
+        text-align      : center;
+    }
+
+
+    .Box {
+        .IconCell {
+            width: 10%;
+
+            .Icon {
+                width        : 3rem;
+                height       : 3rem;
+                border-radius: 50%;
+            }
+        }
+
+        .Name {
+            width: 10%;
+        }
+
+        .rate {
+            width: 10%;
+
+            svg {
+                margin-bottom: 5px;
+                color        : rgb(250, 175, 0);
+
+            }
+        }
+
+        .title {
+            width: 15%;
+        }
+
+        .time {
+            width: 20%;
+        }
+
+        .remove {
+            width: 10%;
+
+            button {
+                font-size: 0.85vw;
+            }
+        }
+    }
+
+}
